@@ -1,45 +1,24 @@
-# Dependencies
-node_modules/
-
-# Build artifacts
-dist/
-.angular/cache/
-*.dist
-
 # Logs
+logs
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-# IDE / Editor folders
-.idea/
-.vscode/
-*.iml
-
-# OS generated files
-.DS_Store
-Thumbs.db
-
-# Environment variables
-.env
-.env*
-!.env.example
-
-# Angular specific
-*.tsbuildinfo
-coverage/
-
-# Test files (if not needed in repo)
-*.spec.ts
-*.test.ts
+node_modules
+dist
+dist-ssr
+*.local
 
 # Editor directories and files
-.settlgs/
-
-# Nx
-.nx/
-
-# Lock files
-package-lock.json
-yarn.lock
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

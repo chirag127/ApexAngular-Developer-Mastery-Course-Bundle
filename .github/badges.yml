@@ -1,0 +1,38 @@
+# FILE: .github/badges.yml
+# Style: flat-square | Standard: December 2025
+
+badges:
+  - name: Build Status
+    description: Shows the status of the main CI pipeline for the codebase.
+    shield_url: https://img.shields.io/github/actions/workflow/status/your-username/your-repo/ci.yml?branch=main&style=flat-square&label=build
+    markdown: "[![Build Status](https://img.shields.io/github/actions/workflow/status/your-username/your-repo/ci.yml?branch=main&style=flat-square&label=build)](https://github.com/your-username/your-repo/actions/workflows/ci.yml)"
+
+  - name: Code Coverage
+    description: Shows the percentage of code covered by automated tests (Unit/Integration).
+    shield_url: https://img.shields.io/codecov/c/github/your-username/your-repo?style=flat-square&token=CODECOV_TOKEN_HERE
+    markdown: "[![Code Coverage](https://img.shields.io/codecov/c/github/your-username/your-repo?style=flat-square&token=CODECOV_TOKEN_HERE)](https://codecov.io/gh/your-username/your-repo)"
+
+  - name: Vite Version
+    description: Displays the primary framework version used in the project (Vite v7).
+    shield_url: https://img.shields.io/badge/Vite-v7-purple?style=flat-square&logo=vite
+    markdown: "![Vite v7](https://img.shields.io/badge/Vite-v7-purple?style=flat-square&logo=vite)"
+
+  - name: TypeScript
+    description: Indicates the use of TypeScript for strict typing and quality.
+    shield_url: https://img.shields.io/badge/Language-TypeScript-blue?style=flat-square&logo=typescript
+    markdown: "![TypeScript](https://img.shields.io/badge/Language-TypeScript-blue?style=flat-square&logo=typescript)"
+
+  - name: Tailwind CSS
+    description: Shows compliance with high-speed linting/formatting standards (Tailwind).
+    shield_url: https://img.shields.io/badge/Tailwind_CSS-v4-blue?style=flat-square&logo=tailwind-css
+    markdown: "![Linted & Formatted](https://img.shields.io/badge/Tailwind_CSS-v4-blue?style=flat-square&logo=tailwind-css)"
+
+  - name: License
+    description: The open-source license protecting the repository content (CC BY-NC 4.0).
+    shield_url: https://img.shields.io/github/license/your-username/your-repo?color=informational&style=flat-square
+    markdown: "[![License](https://img.shields.io/github/license/your-username/your-repo?color=informational&style=flat-square)](LICENSE)"
+
+  - name: GitHub Stars
+    description: Tracks the community recognition and engagement.
+    shield_url: https://img.shields.io/github/stars/your-username/your-repo?style=flat-square&color=yellow&logo=github
+    markdown: "[![GitHub Stars](https://img.shields.io/github/stars/your-username/your-repo?style=flat-square&color=yellow&logo=github)](https://github.com/your-username/your-repo/stargazers)"
